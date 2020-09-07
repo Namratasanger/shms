@@ -4,7 +4,7 @@
     font-family: 'Raleway', sans-serif;
 }
 .downWave{
-    margin-top:-100px;
+    margin-top:-90px;
     transform: rotate(180deg);
     transform-origin: rotate(180deg);
     z-index:-1;
@@ -29,15 +29,13 @@
 }
 .title3{
     margin-top:145px;
-    font-size:45px;
+    font-size:40px;
     color:#3f3d56;
-    font-weight: lighter;
 }
 .title4{
     margin-top:200px;
-    font-size:45px;
+    font-size:40px;
     color:#3f3d56;
-    font-weight: lighter;
 }
 .rightContainer{
     position: absolute;
@@ -69,8 +67,8 @@
     z-index:-1;
 }
 .button{
-    margin: 10px 0px 0px 10px;
-    width: 20.7%;
+    margin: 16px 0px 0px 16px;
+    width: 20%;
     height: 50px;
     background-color: #3f3d56;
 }
