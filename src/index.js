@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import LandingPage from './component/login/LandingPage.js'
+import Login from './components/login/login.js'
 ReactDOM.render(
   <React.StrictMode>
-      <LandingPage/>
+      <Login/>
   </React.StrictMode>,
   document.getElementById('root')
 );
