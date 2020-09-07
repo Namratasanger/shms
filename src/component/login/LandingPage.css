@@ -1,0 +1,98 @@
+.authBox{
+	width:700px;
+	overflow: hidden;
+	margin: 80px auto 30px;;
+}
+.leftBox{
+	width:300px;
+	height:480px;
+	float:left;
+	position:relative;
+	display: block;
+}
+.bgGreen{
+	width:100%;
+	height:100%;
+	background-color: rgb(19, 170, 82);
+	border-top-left-radius: 90px;
+}
+.imageAuth{
+	background-image:url("");
+	width:100%;
+	height: 100% ;
+	background-position:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top-left-radius: 90px;
+	opacity: 0.5;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.imageText{
+	font-size:28px;
+	position:absolute;
+	color:#ffffff;
+}
+.imageText.bold{
+	font-weight: bold;
+}
+.imageText.style1{
+	top:200px;
+	left:20px;
+}
+
+.imageText.style2{
+	top:250px;
+	left:20px;
+}
+
+.rightBox{
+	width:398px;
+	height:478px;
+	float:right;
+	border:1px solid #59c385;
+}
+.box{
+	width:210px;
+	height: 415px;
+	margin: 32px auto;
+}
+.titleAuth{
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #116149;
+}
+.inputSBox{
+	width: 300px;
+	height: 42px;
+	border-bottom: 2px solid #d8d8d8;
+	margin-bottom: 10px;
+}
+.inputS{
+	width:100%;
+	height:98%;
+	font-size: 14px;
+	color:#37353f;
+	text-indent:10px;
+	border:0;
+	outline:none;
+}
+.btnAuth{
+	width:300px;
+	height:47px;
+	color:#ffffff;
+	background-color: rgb(18,161,78);
+	text-align: center;
+	line-height: 47px;
+	border-radius:4px;
+	cursor: pointer;
+}
+.borderBox{
+	width:300px;
+	height:47px;
+	position:relative;
+	margin:20px 0;
+}
