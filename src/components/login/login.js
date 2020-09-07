@@ -19,7 +19,7 @@ export default class Login extends Component {
                         </div>
                         <br/>
                         <div className="inputS">
-                            <input className="inputSBox" name="password" placeholder="Password"/>
+                            <input className="inputSBox" type="password" name="password" placeholder="Password"/>
                         </div>
                         <div className="buttonBox">
                            Login
