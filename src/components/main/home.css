@@ -10,7 +10,7 @@
     z-index:-1;
 }
 .leftContainer{
-    margin-left:350px;
+    margin-left:290px;
     margin-top:170px;
     z-index:-1;
 }
@@ -24,18 +24,18 @@
     font-size:60px;
     color:#3f3d56;
     font-weight: bold;
-    margin-top:60px;
+    margin-top:70px;
     margin-bottom:10px;
 }
 .title3{
-    margin-top:110px;
-    font-size:50px;
+    margin-top:145px;
+    font-size:45px;
     color:#3f3d56;
     font-weight: lighter;
 }
 .title4{
-    margin-top:160px;
-    font-size:50px;
+    margin-top:200px;
+    font-size:45px;
     color:#3f3d56;
     font-weight: lighter;
 }
@@ -53,7 +53,7 @@
 .box2{
     border-top: 5px solid #3f3d56;
     margin-top:230px;
-    width: 150px;
+    width: 130px;
     height: 300px;
     z-index:-1;
 }
@@ -77,11 +77,11 @@
 .text{
     color: #ffffff;
     font-size: 30px;
-    margin: 5px 0px 0px 100px;
+    margin: 7px 0px 0px 105px;
 }
 .logo{
  width:200px;
- margin-left:170px;
+ margin-left:150px;
  margin-top: 90px;
  z-index:0;
 }
