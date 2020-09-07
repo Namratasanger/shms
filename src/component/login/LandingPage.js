@@ -7,9 +7,9 @@ export default class LandingPage extends Component {
                 <div className={'leftBox'}> 
                     <div className={'bgGreen'}/>
                     <div className={'imageAuth'}/>
-                    <div className={'imageText bold style1'}> Code whatever </div>
+                    <div className={'imageText bold style1'}> Stratergic Hospital </div>
                     <div className={'imageText style2'}>
-                        Buid
+                        Management System
                     </div>
                 </div>
                 <div className={'rightBox'}> 
