@@ -47,6 +47,7 @@
     width: 300px;
     height: 220px;
     z-index:-1;
+    transition: border-top 0.1s ease-in;
 }
 .box2{
     border-top: 5px solid #3f3d56;
