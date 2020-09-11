@@ -13,7 +13,7 @@ app.get('*',(req,res)=>{
 })
 
 const server = createServer(app);
-server.listen(PORT,err =>{
+server.listen(port,err =>{
     if(err) throw err;
     console.log("Server Started!")
 })
