@@ -19,8 +19,11 @@ export default class Home extends Component {
                                 <div className="box1"></div>
                                 <div className="box2"></div>
                                 <div className="box3"></div>
-                                <div className="button">
+                                {/* <div className="button">
                                         <span className="text"> Login </span>
+                                </div> */}
+                                <div>
+                                    <span>Welcome</span>
                                 </div>
                                 <div className="box4"></div>
                                         <img className="logo" src={logo} alt="Logo"/>
