@@ -5,7 +5,6 @@ const path = require("path");
 const port = process.env.PORT || 3000;
 
 const app = express()
-
 app.use(express.static(path.resolve(__dirname,'build')))
 
 app.get('*',(req,res)=>{

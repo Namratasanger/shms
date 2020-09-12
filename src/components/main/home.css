@@ -78,6 +78,12 @@
     font-size: 30px;
     margin: 7px 0px 0px 105px;
 }
+.messageContainer{
+    margin : 10px 0px 0px 10px;
+}
+.message{
+    text-align: center;
+}
 .logo{
  width:200px;
  margin-left:150px;
