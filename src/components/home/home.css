@@ -1,0 +1,82 @@
+*{
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+.contentContainer{
+    position: fixed;
+    right:0;
+    margin-top: 2vh;
+    width:70vw;
+    height:55vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.title1{
+    position: fixed;
+    margin-top: 20vh;
+    margin-right: auto;
+    margin-left: 15vw;
+    font-size: 60px;
+    font-weight: bolder;
+    color:rgb(63,61,86);
+}
+.title2{
+    position: fixed;
+    margin-top:33vh;
+    margin-left: 21vw;
+    margin-right: auto;
+    font-size:40px;
+    color:rgb(63,61,86);
+}
+.home-links{
+    margin: auto;
+}
+.home-button {
+    border-radius: 4px;
+    background-color: rgb(12,194,146);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+    width: 130px;
+    height:50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 43vh;
+    margin-left: 4vw;
+    margin-right: auto;
+}
+.home-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.home-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.home-button:hover{
+      background-color:rgb(14, 168, 125);
+}
+.home-button:hover span {
+    padding-right: 25px;
+}
+.home-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.person{
+    position: fixed;
+    width: 50vw;
+    top:0;
+    margin-top:17vh;
+    z-index:1;
+}

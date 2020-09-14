@@ -1,47 +1,36 @@
-.img{
-    position:fixed;
-    margin-top:321px;
-    margin-bottom: 0px;
-    z-index: -1;
+.formElement{
+    position: fixed;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
 }
 .tree{
-    position:fixed;
-    z-index:0;
-    margin-top:60px;
-    margin-left:-37px;
-    width:600px;
+    position: fixed;
+    width:700px;
+    z-index: 1;
 }
-.formElement{
-    position:fixed;
-    z-index:0;
-    margin-top:90px;
-    margin-left: 900px;
-}
-.avatar{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-}
-.inputSBox{
-	width: 300px;
-    height: 42px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-	border-bottom: 2px solid #d8d8d8;
-	margin-bottom: 10px;
+form{
+    margin-top: 30vh;
 }
 .inputS{
 	width:100%;
-	height:98%;
+    height:98%;
 	font-size: 17px;
 	color:#37353f;
 	text-indent:10px;
 	border:0;
     outline:none;
 }
-input:hover{
+.inputSBox{
+	width: 20vw;
+    height: 42px;
+    margin-left: 55vw;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #d8d8d8;
+}
+input:selected{
     outline: none;
     border-bottom: 2px solid  #3f3d56; 
     transition: border-bottom 0.8s ease-in;
@@ -50,14 +39,41 @@ input:focus{
     outline: none;
     border-bottom: 2px solid  #3f3d56; 
 }
-.buttonBox{
-    width:305px;
-	height:47px;
-	color:#ffffff;
-	background-color: #3f3d56;
-	text-align: center;
-	line-height: 47px;
-	border-radius:4px;
+.buttonBox {
+    border-radius: 4px;
+    background-color: rgb(12,194,146);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+    width: 20vw;
+    height:45px;
+    transition: all 0.5s;
     cursor: pointer;
-    margin-left:10px;
+    margin-top:10px;
+    margin-left: 56vw;
+    margin-right: auto;
+}
+.buttonBox span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.buttonBox:hover{
+    background-color: rgb(14, 168, 125);
+}
+.buttonBox:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.buttonBox{
+    background-color:  rgb(15, 184, 137) ;
+}
+.avatar{
+    position: fixed;
+    width: 100px;
+    margin-top:10vh;
+    right: 31vw;
 }

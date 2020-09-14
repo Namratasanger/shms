@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import './login.css';
-import wave from '../../img/wave.svg';
-import tree from '../../img/tree.svg';
-import femaleAvatar from '../../img/femaleAvatar.svg';
+import wave from '../../images/wave.svg';
+import tree from '../../images/tree.svg';
+import unlock from '../../images/unlock.svg';
+import femaleAvatar from '../../images/femaleAvatar.svg';
 export default class Login extends Component {
     render() {
         return (
             <div>
-                <img className="img" src={wave} alt="Wave"/>
-                <img className="tree" src={tree} alt="Tree"/>
                 <div className="formElement">
                     <div>
                         <img className="avatar" src={femaleAvatar}/>
@@ -21,11 +20,13 @@ export default class Login extends Component {
                         <div className="inputS">
                             <input className="inputSBox" type="password" name="password" placeholder="Password"/>
                         </div>
-                        <div className="buttonBox">
-                           Login
-                        </div>
+                        <button className="buttonBox">
+                             <span>Login</span>
+                        </button>
                     </form>
                 </div>
+                <img className="tree" src={unlock} alt="Tree"/>
+                {/* <img className="upWave" src={wave} alt="Wave"/> */}
             </div>
         )
     }
