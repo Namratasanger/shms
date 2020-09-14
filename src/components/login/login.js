@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import './login.css';
-import wave from '../../images/wave.svg';
-import tree from '../../images/tree.svg';
 import unlock from '../../images/unlock.svg';
 import femaleAvatar from '../../images/femaleAvatar.svg';
 export default class Login extends Component {
@@ -26,7 +24,6 @@ export default class Login extends Component {
                     </form>
                 </div>
                 <img className="tree" src={unlock} alt="Tree"/>
-                {/* <img className="upWave" src={wave} alt="Wave"/> */}
             </div>
         )
     }
