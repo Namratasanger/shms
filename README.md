@@ -1,4 +1,5 @@
 ## Stratergic hospital Management System with QR code system.
+This is the just the prototype of the project for viewing the actual application [Click Here](https://github.com/Namratasanger/Strategic-Hospital-Management-System)
 For the live preview of the application click on [View Application](https://strategic-hospital-system.herokuapp.com/)
 
 This is the hospital management system project using the following technologies:
